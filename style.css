@@ -1,54 +1,35 @@
+.main_button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: cadetblue;
+  font-size: 1rem;
+}
+#clear_button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: cadetblue;
+  font-size: 1rem;
+}
+.minor_buttons {
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+  line-height: 5px;
+}
+input {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
 .container {
-  box-sizing: border-box;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 20px;
 }
-#input {
-  height: 40px;
-  width: 400px;
-  border-radius: 5px;
-  font-size: 20px;
+.indent {
+  margin-top: 10px;
 }
-.window_one {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #dae3e4;
-
-  border-radius: 5px;
-  border-color: rgb(74, 139, 117);
-  border-style: solid;
-  width: 600px;
-  height: 300px;
-}
-
-#window_two {
-  background-color: #dae3e4;
-  text-align: center;
-  line-height: 100px;
-  border-radius: 5px;
-  border-color: rgb(74, 139, 117);
-  border-style: solid;
-  width: 600px;
-  height: 150px;
-}
-
-#btn_ok {
-  height: 40px;
-  width: 200px;
-  border-radius: 5px;
-  cursor: pointer;
-
-  background-color: #83bec5;
-}
-
-#btn_ok:hover {
-  background-color: teal;
-}
-
-.hidden {
-  display: none;
+#amount_uniq_words {
+  font-size: 1.5 rem;
 }
